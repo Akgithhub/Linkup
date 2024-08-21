@@ -26,7 +26,7 @@ const Navbar = () => {
             onClick={() => setIsActive("homepage")}
             className={`flex items-center gap-2 ${
               isActive === "homepage"
-                ? "text-gray-900 font-medium text-[16px]"
+                ? "text-gray-900 font-medium text-[16px] ease-in-out duration-300"
                 : ""
             }`}
           >
@@ -44,7 +44,7 @@ const Navbar = () => {
             onClick={() => setIsActive("friends")}
             className={`flex items-center gap-2 ${
               isActive === "friends"
-                ? "text-gray-900 font-medium text-[16px]"
+                ? "text-gray-900 font-medium text-[16px] ease-in-out duration-300"
                 : ""
             }`}
           >
@@ -62,7 +62,7 @@ const Navbar = () => {
             onClick={() => setIsActive("stories")}
             className={`flex items-center gap-2 ${
               isActive === "stories"
-                ? "text-gray-900 font-medium text-[16px]"
+                ? "text-gray-900 font-medium text-[16px] ease-in-out duration-300"
                 : ""
             }`}
           >
@@ -79,7 +79,7 @@ const Navbar = () => {
         <div className="hidden xl:flex p-2 bg-slate-100 items-center rounded-xl">
           <input
             type="text"
-            placeholder="search..."
+            placeholder="Search..."
             className="bg-transparent outline-none"
           />
           <Image src="/search.png" alt="" width={14} height={14} />
