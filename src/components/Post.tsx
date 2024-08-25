@@ -55,7 +55,7 @@ const Post = () => {
             />
             <span className="text-gray-500">|</span>
             <span className="text-gray-500">
-              123 <span className="hidden md:inline">Likes</span>
+              0 <span className="hidden md:inline">Likes</span>
             </span>
           </div>
           <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
@@ -68,7 +68,7 @@ const Post = () => {
             />
             <span className="text-gray-500">|</span>
             <span className="text-gray-500">
-              123 <span className="hidden md:inline">Comment</span>
+              0 <span className="hidden md:inline">Comment</span>
             </span>
           </div>
         </div>
@@ -82,7 +82,7 @@ const Post = () => {
           />
           <span className="text-gray-500">|</span>
           <span className="text-gray-500">
-            123 <span className="hidden md:inline">Share</span>
+            0 <span className="hidden md:inline">Share</span>
           </span>
         </div>
       </div>
