@@ -7,6 +7,7 @@ const Stories = () => {
         <div className="flex flex-col gap-2 items-center cursor-pointer">
           <Image
             src="https://images.pexels.com/photos/26347254/pexels-photo-26347254/free-photo-of-portrait-of-a-man-in-a-black-shirt.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            loading="lazy"
             alt="Portrait of Aman"
             width={80}
             height={80}
